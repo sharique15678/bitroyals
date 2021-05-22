@@ -7,7 +7,7 @@ html,body{
   padding: 0;
   overflow-x: hidden;
   /* background-color: #072230; */
-  background: url("images/black.jpg");
+  background: url("images/bac.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,9 +16,13 @@ html,body{
 nav,
 .navbar {
   backdrop-filter: blur(5px);
-  background: #1ca6f0;
-  background: #072230;
+  background: #010101d4;
   font-family: 'Ubuntu', sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
 }
 .navbar-nav a{
   font-size: 1.5rem;
@@ -26,10 +30,10 @@ nav,
 }
 .active{
   color: red !important;
-  border-bottom: solid 2px red;
+  border-bottom: solid 2px #0275d8;
 }
 .show .active{
-  color: red !important;
+  color: #0275d8 !important;
 }
 h1,h2,h3,h4{
   font-family: 'Bitter', serif;
@@ -57,18 +61,13 @@ footer{
     align-items: center;
     justify-content: center;
     background: url("images/landing.jpg");
-    /* background-repeat: repeat-x; */
-    /* background-position: center;
-    background-size: cover; */
+    background-repeat: repeat-x;
   }
   .hero h1 {
     font-size: 4rem;
     text-shadow: #1ca6f064 5px 5px;
   }
-  .hero h3 {
-    margin: 20px 40px;
-  }
-
+  
   .ama-announcement h1 , .ama-recap h1{
     margin-top: 20px;
     font-size: 2.5rem;
@@ -108,15 +107,14 @@ footer{
   text-decoration: none;
   color: white;
 }
-
+.social h4 a:hover{
+  color: #1ca6f0;
+}
   /* this is for AMA series part */
   .ama h1{
     color: white;
   }
-  .ama img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+  
   .ama-wrapper{
     border: solid 2px #1ca6f0;
     border-top-left-radius: 30px;
@@ -134,5 +132,10 @@ footer{
   }
   .recent-posts a{
     text-decoration: none;
+  }
+  .ama-tweet img{
+    border-radius: 50%;
+                  height: 50px;
+                  width: 50px;
   }
 
