@@ -85,6 +85,9 @@ footer{
   .ama-recap img{
     border-radius: 15px;
   }
+  .ama-slider a:hover{
+    color: #1ca6f0;
+  }
 
   .partener-logo {
     width: 100%;
@@ -94,6 +97,7 @@ footer{
   .partner-div{
     background-color: #1ca6f0;
   }
+
   
   /* these are for contact us section */
 .blue-body {
