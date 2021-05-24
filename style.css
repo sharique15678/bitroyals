@@ -76,14 +76,14 @@ footer{
     font-weight: 700;
   }
   .ama-announcement h1 a, .ama-recap h1 a{
-    text-decoration: none;
+    text-decoration: underline;
     color:unset;
   }
   .ama-announcement img{
-    border-radius: 30px;
+    border-radius: 5px;
   }
   .ama-recap img{
-    border-radius: 15px;
+    border-radius: 5px;
   }
   .ama-slider a:hover{
     color: #1ca6f0;
